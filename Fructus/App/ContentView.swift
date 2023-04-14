@@ -38,10 +38,10 @@ struct ContentView: View {
                     .sheet(isPresented: $isShowingSetings) {
                         SettingsView()
                     }
-
                 }
             }
         } //: NAVIGATION
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
